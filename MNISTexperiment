@@ -1,5 +1,11 @@
 from utils import *
 
+import keras
+from keras.datasets import mnist
+from gtda.images import HeightFiltration
+from gtda.images import RadialFiltration
+from gtda.images import DensityFiltration
+
 
 # EXTRACT DATA
 
