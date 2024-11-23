@@ -1,3 +1,12 @@
-gudhi
-giotto-tda
-persim
+gudhi.__version__ = 3.10.1
+gtda.__version__ = 0.6.2
+persim.__version__ = 0.3.7
+numpay.__version__ = 1.26.4
+tensorflow.__version__ = 2.17.1
+keras.__version__ = 3.5.0
+PIL.__version__ = 11.0.0
+pandas.__version__ = 2.2.2
+trimesh.__version__ = 4.5.2
+scipy.__version__ = 1.13.1
+argparse.__version__ = 1.1
+
