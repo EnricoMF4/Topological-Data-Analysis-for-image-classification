@@ -1,25 +1,21 @@
-import gudhi.representations
+import tensorflow as tf
+import gudhi as gd
+import numpy as np
+import argparse
+import trimesh
+import pickle
+import matplotlib.pyplot as plt
+import pandas as pd
+import scipy
+import PIL
 
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier
 from time import time
 from scipy import sparse
 from scipy.sparse.linalg import lsqr, cg, eigsh
-import argparse
-import trimesh
 from IPython.display import display
-import pickle
-from skimage.feature import canny
-from skimage import filters
-from skimage import morphology
-from scipy.ndimage import distance_transform_bf
 from gudhi.tensorflow import LowerStarSimplexTreeLayer
-import tensorflow as tf
-import gudhi as gd
-import numpy as np
-import matplotlib.pyplot as plt
-import keras
-from keras.datasets import fashion_mnist
 from sklearn.preprocessing import MinMaxScaler
 from gudhi.representations import (DiagramSelector, Clamping, Landscape, Silhouette, BettiCurve, ComplexPolynomial,\
   TopologicalVector, DiagramScaler, BirthPersistenceTransform,\
@@ -28,15 +24,10 @@ from gudhi.representations import (DiagramSelector, Clamping, Landscape, Silhoue
   SlicedWassersteinKernel, PersistenceFisherKernel, WassersteinDistance)
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, ConfusionMatrixDisplay
-import numpy as np
-from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, ConfusionMatrixDisplay
 from sklearn import decomposition
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-import pandas as pd
-import scipy
 from scipy import ndimage
-import PIL
 from persim import plot_diagrams
 from sklearn.preprocessing import StandardScaler
 
