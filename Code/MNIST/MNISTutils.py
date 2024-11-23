@@ -9,15 +9,7 @@ import pandas as pd
 import scipy
 import persim
 
-
-
-from skimage.feature import canny
-from skimage import filters
-from skimage import morphology
-from scipy.ndimage import distance_transform_bf
 from gudhi.tensorflow import LowerStarSimplexTreeLayer
-from keras.datasets import mnist
-from sklearn.preprocessing import MinMaxScaler
 from gudhi.representations import (DiagramSelector, Clamping, Landscape, Silhouette, BettiCurve, ComplexPolynomial,\
   TopologicalVector, DiagramScaler, BirthPersistenceTransform,\
   PersistenceImage, PersistenceWeightedGaussianKernel, Entropy, \
