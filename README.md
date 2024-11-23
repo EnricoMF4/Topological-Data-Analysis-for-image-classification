@@ -16,9 +16,9 @@ Python3 (I have tested it with Python3.9.6)
 
 ## Bibliography
 
-[A Topological Machine Learning Pipeline for Classification - University of Pisa - 2023 - Francesco Conti and others](https://arxiv.org/abs/2309.15276)
-[A Survey of Vectorization Methods in Topological Data Analysis - Spanish grants Ministerio de Ciencia e Innovacion – 2022 - Dashti Ali and others](https://arxiv.org/abs/2212.09703)
-[Adaptive template systems: data-driven feature selection for learning with persistence diagrams - Michigan State University – 2019 - Luis Polanco and others](https://arxiv.org/abs/1910.06741)
-[A Stable Multi-Scale Kernel for Topological Machine Learning“ - University of Salzburg - 2014 - Jan Reininghaus and others](https://arxiv.org/abs/1412.6821)
-[A Concise and Provably Informative Multi-Scale Signature Based on Heat Diffusion“ - Stanford University - 2009 - Jian Sun and others](https://www.lix.polytechnique.fr/~maks/papers/hks.pdf)
+- [A Topological Machine Learning Pipeline for Classification - University of Pisa - 2023 - Francesco Conti and others](https://arxiv.org/abs/2309.15276)
+- [A Survey of Vectorization Methods in Topological Data Analysis - Spanish grants Ministerio de Ciencia e Innovacion – 2022 - Dashti Ali and others](https://arxiv.org/abs/2212.09703)
+- [Adaptive template systems: data-driven feature selection for learning with persistence diagrams - Michigan State University – 2019 - Luis Polanco and others](https://arxiv.org/abs/1910.06741)
+- [A Stable Multi-Scale Kernel for Topological Machine Learning“ - University of Salzburg - 2014 - Jan Reininghaus and others](https://arxiv.org/abs/1412.6821)
+- [A Concise and Provably Informative Multi-Scale Signature Based on Heat Diffusion“ - Stanford University - 2009 - Jian Sun and others](https://www.lix.polytechnique.fr/~maks/papers/hks.pdf)
 
