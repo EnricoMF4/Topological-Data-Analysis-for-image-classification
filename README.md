@@ -20,7 +20,7 @@ Due to memory reasons, I have not uploaded the SHREC14 dataset, that you can eas
 - [A Stable Multi-Scale Kernel for Topological Machine Learning“ - University of Salzburg - 2014 - Jan Reininghaus and others](https://arxiv.org/abs/1412.6821)
 - [A Concise and Provably Informative Multi-Scale Signature Based on Heat Diffusion“ - Stanford University - 2009 - Jian Sun and others](https://www.lix.polytechnique.fr/~maks/papers/hks.pdf)
 
-I computed the Heat Kernel Signature, importing the necessary functions present in [pyhks](https://github.com/ctralie/pyhks) repository in Github.
+I computed the Heat Kernel Signature, for 3d-images, importing the necessary functions present in [pyhks](https://github.com/ctralie/pyhks) repository in Github.
  
 ## Prerequisites
 
