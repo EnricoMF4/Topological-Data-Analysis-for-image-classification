@@ -16,4 +16,4 @@ Python3 (I have tested it with Python3.9.6)
 
 ## Bibliography
 
-[Vai su Wikipedia](https://www.wikipedia.org)
+[A Topological Machine Learning Pipeline for Classification - University of Pisa - 2023 - Francesco Conti and others](https://arxiv.org/abs/2309.15276)
