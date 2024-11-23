@@ -1,5 +1,8 @@
 from MNISTutils import *
 
+from gtda.images import HeightFiltration
+from gtda.images import RadialFiltration
+from gtda.images import DensityFiltration
 
 
 # EXTRACT DATA
