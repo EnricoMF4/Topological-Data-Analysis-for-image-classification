@@ -23,4 +23,4 @@ Due to memory reasons, I have not uploaded the SHREC14 dataset, that you can eas
 
 ## Prerequisites
 
-Python3 (I have tested it with Python3.9.6)
+I used Python3 (I have tested it with Python3.9.6). In the project I purposely tested different libraries for TDA, as Gudhi, Scikit-TDA and Giotto-tda. So, a future step is to standardize the code for each experiment using a single library, Gudhi seemed to be the most suitable. 
