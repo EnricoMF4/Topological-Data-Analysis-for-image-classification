@@ -24,4 +24,4 @@ I computed the Heat Kernel Signature, for 3d-images, importing the necessary fun
  
 ## Prerequisites
 
-I used Python3 (I have tested it with Python3.9.6). In the project I purposely tested different libraries for TDA, as Gudhi, Scikit-TDA and Giotto-tda. So, a future step is to standardize the code for each experiment using a single library, Gudhi seemed to be the most suitable. 
+I used Python3 (I have tested it with Python3.9.6). In the project I purposely tested different libraries for TDA, as Gudhi, Scikit-TDA, Persim and Giotto-tda. So, a future step is to standardize the code for each experiment using a single library, Gudhi seemed to be the most suitable. 
