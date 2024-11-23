@@ -1,19 +1,21 @@
-import gudhi.representations
-from gtda.images import HeightFiltration
-from gtda.images import RadialFiltration
-from gtda.images import DensityFiltration
-
-import pickle
-from skimage.feature import canny
-from skimage import filters
-from skimage import morphology
-from scipy.ndimage import distance_transform_bf
-from gudhi.tensorflow import LowerStarSimplexTreeLayer
 import tensorflow as tf
 import gudhi as gd
 import numpy as np
 import matplotlib.pyplot as plt
 import keras
+import pickle
+import PIL
+import pandas as pd
+import scipy
+import persim
+
+
+
+from skimage.feature import canny
+from skimage import filters
+from skimage import morphology
+from scipy.ndimage import distance_transform_bf
+from gudhi.tensorflow import LowerStarSimplexTreeLayer
 from keras.datasets import mnist
 from sklearn.preprocessing import MinMaxScaler
 from gudhi.representations import (DiagramSelector, Clamping, Landscape, Silhouette, BettiCurve, ComplexPolynomial,\
@@ -24,15 +26,11 @@ from gudhi.representations import (DiagramSelector, Clamping, Landscape, Silhoue
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, ConfusionMatrixDisplay
 from gudhi import CubicalComplex
-import numpy as np
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, ConfusionMatrixDisplay
 from sklearn import decomposition
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-import pandas as pd
-import scipy
 from scipy import ndimage
-import PIL
 from persim import plot_diagrams
 from sklearn.preprocessing import StandardScaler
 
