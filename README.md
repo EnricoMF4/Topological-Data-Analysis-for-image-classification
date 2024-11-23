@@ -9,7 +9,7 @@ I implemented in Python the classification experiments on four different image d
 
 I uploaded the experiments about the last three datasets, including a utils file for each of them. You can find the explanation of the experiments and the report of the results in the [presentation](Presentation). It is important to note how the topological information extraction method is enormously differentiated by the type of data used, and it is crucial for classification purposes. 
 
-Due to memory reasons, I have not uploaded the SHREC14 dataset, that you can easily find online. I computed the Heat Kernel Signature, importing the necessary functions present in [pyhks](https://github.com/ctralie/pyhks) repository in Github.
+Due to memory reasons, I have not uploaded the SHREC14 dataset, that you can easily find online.
 
 
 ## Bibliography
@@ -20,7 +20,8 @@ Due to memory reasons, I have not uploaded the SHREC14 dataset, that you can eas
 - [A Stable Multi-Scale Kernel for Topological Machine Learning“ - University of Salzburg - 2014 - Jan Reininghaus and others](https://arxiv.org/abs/1412.6821)
 - [A Concise and Provably Informative Multi-Scale Signature Based on Heat Diffusion“ - Stanford University - 2009 - Jian Sun and others](https://www.lix.polytechnique.fr/~maks/papers/hks.pdf)
 
-
+I computed the Heat Kernel Signature, importing the necessary functions present in [pyhks](https://github.com/ctralie/pyhks) repository in Github.
+ 
 ## Prerequisites
 
 I used Python3 (I have tested it with Python3.9.6). In the project I purposely tested different libraries for TDA, as Gudhi, Scikit-TDA and Giotto-tda. So, a future step is to standardize the code for each experiment using a single library, Gudhi seemed to be the most suitable. 
