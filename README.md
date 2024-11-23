@@ -7,7 +7,7 @@ I implemented in Python the classification experiments on four different image d
 
 ![](Extra_files/image1_TDA.png)
 
-I uploaded the experiments about the last three datasets, including a utils file for each of them. You can find the explanation of the experiments and the report of the results in the [presentation](Presentation).
+I uploaded the experiments about the last three datasets, including a utils file for each of them. You can find the explanation of the experiments and the report of the results in the [presentation](Presentation). It is important to note how the topological information extraction method is enormously differentiated by the type of data used, and it is crucial for classification purposes. 
 
 Due to memory reasons, I have not uploaded the SHREC14 dataset, that you can easily find online.
 
