@@ -1,5 +1,15 @@
 from FMNISTutils import *
 
+from gtda.images import HeightFiltration
+from gtda.images import RadialFiltration
+from gtda.images import DensityFiltration
+
+from skimage.feature import canny
+from skimage import filters
+from skimage import morphology
+from scipy.ndimage import distance_transform_bf
+from keras.datasets import mnist
+from sklearn.preprocessing import MinMaxScaler
 
 # EXTRACT DATA
 
